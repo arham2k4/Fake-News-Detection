@@ -1,121 +1,36 @@
-# TruthLens 🔍
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**AI-Powered News Verification & Bias Detection Platform**
+## Getting Started
 
-TruthLens is a web-based application designed to help users evaluate the credibility of news articles, identify potential bias, and compare coverage from multiple sources. The project promotes responsible digital citizenship by encouraging critical thinking and informed decision-making in an era of misinformation.
-
-## 📖 Project Overview
-
-With the rapid spread of information through social media and online platforms, distinguishing between factual reporting and misleading content has become increasingly difficult. TruthLens addresses this challenge by leveraging Artificial Intelligence to analyze news content and provide users with transparent insights regarding credibility, tone, bias, and reliability.
-
-This project was developed as part of the **Ethics and Social Responsibility** course to demonstrate how technology can be used ethically to combat misinformation and support responsible media consumption.
-
-## ✨ Features
-
-* 🔎 **News Credibility Analysis**
-
-  * Analyze news headlines or article URLs.
-  * Evaluate the trustworthiness of reported information.
-
-* ⚖️ **Bias Detection**
-
-  * Identify political or ideological bias in news coverage.
-  * Highlight differences in framing and language.
-
-* 📰 **Multi-Source Comparison**
-
-  * Compare how different news outlets report the same story.
-  * Detect variations in tone, emphasis, and omissions.
-
-* 🤖 **AI-Powered Insights**
-
-  * Generate credibility scores and assessments.
-  * Summarize key findings in an easy-to-understand format.
-
-* 💬 **Interactive Chat Assistant**
-
-  * Ask questions related to news content.
-  * Receive AI-generated explanations and clarifications.
-
-## 🛠️ Technologies Used
-
-* **Next.js**
-* **React**
-* **TypeScript**
-* **Tailwind CSS**
-* **Groq API (LLaMA Models)**
-* **REST APIs**
-
-## 🎯 Ethical & Social Relevance
-
-TruthLens supports several ethical and social objectives:
-
-* Combating misinformation and fake news.
-* Promoting media literacy.
-* Encouraging critical thinking.
-* Supporting informed decision-making.
-* Increasing transparency in AI-assisted information analysis.
-
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/truthlens.git
-cd truthlens
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Open:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```text
-http://localhost:3000
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 📂 Project Structure
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```text
-app/
-├── api/
-│   ├── analyze/
-│   ├── chat/
-│   └── compare/
-├── chat/
-├── check/
-├── compare/
-└── lib/
-```
+## Learn More
 
-## 📸 Use Cases
+To learn more about Next.js, take a look at the following resources:
 
-* Fact-checking trending news.
-* Comparing media coverage from different sources.
-* Educational research and learning.
-* Promoting responsible online behavior.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🔮 Future Enhancements
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-* Real-time fact-checking integration.
-* Expanded source database.
-* User reporting and feedback system.
-* Advanced misinformation detection models.
-* Browser extension support.
+## Deploy on Vercel
 
-## 👨‍💻 Team Project
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Developed as an academic project for the **Ethics and Social Responsibility** course to explore the responsible use of Artificial Intelligence in addressing societal challenges.
-
-## 📜 License
-
-This project is developed for educational purposes. Feel free to use and modify it for learning and research.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
